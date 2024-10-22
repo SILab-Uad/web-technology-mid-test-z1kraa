@@ -13,7 +13,6 @@ document.getElementById('generateBtn').addEventListener('click', () => {
   document.getElementById('passwordOutput').textContent = password;
 });
 
-// Copy to Clipboard functionality
 document.getElementById('copyBtn').addEventListener('click', () => {
   const passwordOutput = document.getElementById('passwordOutput').textContent;
   if (passwordOutput) {

@@ -32,7 +32,7 @@ describe('Password Generator Tests', () => {
       includeNumbers: false,
       includeSpecialChars: false
     });
-    expect(/[A-Z]/.test(password)).to.be.true; // Check for at least one uppercase letter
+    expect(/[A-Z]/.test(password)).to.be.true; 
   });
 
   it('should contain lowercase letters if selected', () => {
@@ -42,7 +42,7 @@ describe('Password Generator Tests', () => {
       includeNumbers: false,
       includeSpecialChars: false
     });
-    expect(/[a-z]/.test(password)).to.be.true; // Check for at least one lowercase letter
+    expect(/[a-z]/.test(password)).to.be.true; 
   });
 
   it('should contain numbers if selected', () => {
@@ -52,7 +52,7 @@ describe('Password Generator Tests', () => {
       includeNumbers: true,
       includeSpecialChars: false
     });
-    expect(/[0-9]/.test(password)).to.be.true; // Check for at least one number
+    expect(/[0-9]/.test(password)).to.be.true; 
   });
 
   it('should contain special characters if selected', () => {
@@ -62,7 +62,7 @@ describe('Password Generator Tests', () => {
       includeNumbers: false,
       includeSpecialChars: true
     });
-    expect(/[!@#$%^&*()]/.test(password)).to.be.true; // Check for at least one special character
+    expect(/[!@#$%^&*()]/.test(password)).to.be.true; 
   });
 
   it('should throw an error if no character type is selected', () => {

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="0.007" tests="6" failures="0">
-  <testsuite name="Root Suite" timestamp="2024-10-22T10:28:42" tests="0" time="0.000" failures="0">
+<testsuites name="Mocha Tests" time="0.010" tests="6" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-10-22T10:37:56" tests="0" time="0.000" failures="0">
   </testsuite>
-  <testsuite name="Password Generator Tests" timestamp="2024-10-22T10:28:42" tests="6" file="C:\Users\ASUS\Documents\web-technology-mid-test-z1kraa\test\test.js" time="0.006" failures="0">
-    <testcase name="Password Generator Tests should generate a password of the specified length" time="0.001" classname="should generate a password of the specified length">
+  <testsuite name="Password Generator Tests" timestamp="2024-10-22T10:37:56" tests="6" file="C:\Users\ASUS\Documents\web-technology-mid-test-z1kraa\test\test.js" time="0.008" failures="0">
+    <testcase name="Password Generator Tests should generate a password of the specified length" time="0.002" classname="should generate a password of the specified length">
     </testcase>
     <testcase name="Password Generator Tests should contain uppercase letters if selected" time="0.000" classname="should contain uppercase letters if selected">
     </testcase>
-    <testcase name="Password Generator Tests should contain lowercase letters if selected" time="0.000" classname="should contain lowercase letters if selected">
+    <testcase name="Password Generator Tests should contain lowercase letters if selected" time="0.001" classname="should contain lowercase letters if selected">
     </testcase>
-    <testcase name="Password Generator Tests should contain numbers if selected" time="0.001" classname="should contain numbers if selected">
+    <testcase name="Password Generator Tests should contain numbers if selected" time="0.000" classname="should contain numbers if selected">
     </testcase>
     <testcase name="Password Generator Tests should contain special characters if selected" time="0.000" classname="should contain special characters if selected">
     </testcase>
