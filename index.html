@@ -15,37 +15,36 @@
   </head>
   <body>
     <div class="card">
-      <h1>Simple Password Generator</h1>
+      <h1>Generator Password Sederhana</h1>
 
-      <label for="length"> Password length:</label>
+      <label for="length">Panjang Password:</label>
       <input type="number" id="length" min="4" max="128" value="12" />
 
-      <h3>Select Criteria:</h3>
+      <h3>Pilih Kriteria:</h3>
 
       <div class="checkbox-container">
-        <label for="lowercase">Include uppercase</label>
-        <input type="checkbox" id="lowercase" checked />
+        <label for="includeUppercase">Huruf Besar</label>
+        <input type="checkbox" id="includeUppercase" checked />
       </div>
 
       <div class="checkbox-container">
-        <label for="uppercase">Include lowercase</label>
-        <input type="checkbox" id="uppercase" checked />
+        <label for="includeLowercase">Huruf Kecil</label>
+        <input type="checkbox" id="includeLowercase" checked />
       </div>
 
       <div class="checkbox-container">
-        <label for="numbers">Include Numbers</label>
-        <input type="checkbox" id="numbers" checked />
+        <label for="includeNumbers">Angka</label>
+        <input type="checkbox" id="includeNumbers" checked />
       </div>
 
       <div class="checkbox-container">
-        <label for="special">Include special Characters</label>
-        <input type="checkbox" id="special" checked />
+        <label for="sincludeSpecialChars">Karakter Khusus</label>
+        <input type="checkbox" id="includeSpecialChars" checked />
       </div>
 
-      <button id="generate">GENERATE</button>
+      <button id="generateBtn">GENERATE</button>
 
-      <p>
-        your password:</p>
+      <p>Password Anda:</p>
 
       <!-- Flexbox untuk password dan tombol icon salin -->
       <div class="password-container">
@@ -59,7 +58,6 @@
       <p id="copyMessage"></p>
     </div>
 
-    <script type="module" src="script.js"></script>
-    <script type="module" src="dom.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>

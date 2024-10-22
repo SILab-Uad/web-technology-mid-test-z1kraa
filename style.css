@@ -1,121 +1,120 @@
 /* Style untuk halaman secara umum */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #b6d8f8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-  }
-  
-  /* Style untuk card */
-  .card {
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 350px;
-    width: 100%;
-    text-align: center;
-  }
-  
-  /* Warna pada judul */
-  h1 {
-    font-size: 24px;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  /* Style input */
-  input[type="number"] {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-  }
-  
-  h3 {
-    margin-bottom: 10px;
-  }
-  
-  /* Style untuk label dan checkbox menggunakan Flexbox */
-  .checkbox-container {
-    display: flex;
-    justify-content: space-between; /* Rata kiri-kanan */
-    align-items: center;
-    margin-bottom: 10px;
-  }
-  
-  .checkbox-container label {
-    flex-grow: 1; /* Membuat label menyesuaikan panjang konten */
-    text-align: left; /* Agar teks tetap rata kiri */
-  }
-  
-  .checkbox-container input {
-    margin-left: 10px; /* Jarak antara label dan checkbox */
-  }
-  
-  /* Style untuk password dan tombol salin dengan Flexbox */
-  .password-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 15px;
-    border: 1px solid #ddd;
-    padding: 10px;
-    border-radius: 5px;
-    background-color: #f9f9f9;
-  }
-  
-  /* Style untuk teks password */
-  .password-box {
-    font-weight: bold;
-    font-size: 1.2em;
-    word-wrap: break-word;
-    color: #333333;
-    margin: 0;
-    flex-grow: 1;
-    text-align: left;
-    padding-right: 10px;
-  }
-  
-  /* Style tombol hasilkan password */
-  #generate {
-    background-color: #007bff; /* Warna biru */
-    color: white;
-    font-weight: bold;
-    border: none;
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer; /* Menambahkan efek pointer */
-    margin-top: 10px; /* Jarak antara tombol dan elemen sebelumnya */
-  }
-  
-  #generate:hover {
-    background-color: #0056b3; /* Warna saat hover */
-  }
-  
-  /* Style tombol salin dengan icon */
-  .copy-btn {
-    background-color: #007bff;
-    border: none;
-    padding: 8px;
-    border-radius: 5px;
-    cursor: pointer; /* Menambahkan efek pointer */
-    display: flex;
-    align-items: center;
-    font-size: 1.5em;
-    color: white;
-  }
-  
-  .copy-btn:hover {
-    background-color: #0056b3; /* Warna saat hover */
-  }
-  
-  #copyMessage {
-    color: #249924;
-  }
-  
+  font-family: Arial, sans-serif;
+  background-color: #b6d8f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Style untuk card */
+.card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 350px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Warna pada judul */
+h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Style input */
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+h3 {
+  margin-bottom: 10px;
+}
+
+/* Style untuk label dan checkbox menggunakan Flexbox */
+.checkbox-container {
+  display: flex;
+  justify-content: space-between; /* Rata kiri-kanan */
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.checkbox-container label {
+  flex-grow: 1; /* Membuat label menyesuaikan panjang konten */
+  text-align: left; /* Agar teks tetap rata kiri */
+}
+
+.checkbox-container input {
+  margin-left: 10px; /* Jarak antara label dan checkbox */
+}
+
+/* Style untuk password dan tombol salin dengan Flexbox */
+.password-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+/* Style untuk teks password */
+.password-box {
+  font-weight: bold;
+  font-size: 1.2em;
+  word-wrap: break-word;
+  color: #333333;
+  margin: 0;
+  flex-grow: 1;
+  text-align: left;
+  padding-right: 10px;
+}
+
+/* Style tombol hasilkan password */
+#generateBtn {
+  background-color: #007bff; /* Warna biru */
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer; /* Menambahkan efek pointer */
+  margin-top: 10px; /* Jarak antara tombol dan elemen sebelumnya */
+}
+
+#generateBtn:hover {
+  background-color: #0056b3; /* Warna saat hover */
+}
+
+/* Style tombol salin dengan icon */
+.copy-btn {
+  background-color: #007bff;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer; /* Menambahkan efek pointer */
+  display: flex;
+  align-items: center;
+  font-size: 1.5em;
+  color: white;
+}
+
+.copy-btn:hover {
+  background-color: #0056b3; /* Warna saat hover */
+}
+
+#copyMessage {
+  color: #249924;
+}
